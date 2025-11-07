@@ -4,9 +4,6 @@ const xPlayerDisplay = document.querySelector('#xPlayerDisplay')
 const oPlayerDisplay = document.querySelector('#oPlayerDisplay');
 const restartBtn = document.querySelector('#restartBtn')
 
-const restartBtn = document.querySelector('#restartBtn')
-
-
 
 
 let player = 'X'
@@ -160,6 +157,7 @@ restartBtn.addEventListener('click', () => {
     isGameStart = false;
     titleHeader.textContent = 'choose';
 });
+
 
 
 
